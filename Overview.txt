@@ -1,0 +1,2 @@
+Welcome to my repository! This is where my personal projects stays.
+What will this repo contains? Well, first of all, it will have some small programs, such as the Quiz application. I will add more programs in the future.
