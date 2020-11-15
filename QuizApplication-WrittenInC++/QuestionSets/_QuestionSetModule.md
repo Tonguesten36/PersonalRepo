@@ -3,6 +3,7 @@
 Hello! Here you will find the code snippet for a question in a questions set.
 
 ------| THE SNIPPET (COPY THIS) |------
+
 int q = QuestionManager(int correctAnswer, string question,
 		string answer1, 
 		string answer2,
@@ -10,6 +11,7 @@ int q = QuestionManager(int correctAnswer, string question,
 		string answer4) ? 1 : 0;
 
 ------| HOW TO USE THIS ? |------
+
 First of all, you copied this into a .cpp script in the QuestionSets folder.
 Here is the arguments for the QuestionManager function:
 
