@@ -1,0 +1,10 @@
+C:\Users\Personal\source\repos\WindowsFormsApp3\bin\Debug\TonguestenMusicPlayer.exe.config
+C:\Users\Personal\source\repos\WindowsFormsApp3\bin\Debug\TonguestenMusicPlayer.exe
+C:\Users\Personal\source\repos\WindowsFormsApp3\bin\Debug\TonguestenMusicPlayer.pdb
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Debug\TonguestenMusicPlayer.csprojAssemblyReference.cache
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.MainForm.resources
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Debug\TonguestenMusicPlayer.Properties.Resources.resources
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Debug\TonguestenMusicPlayer.csproj.GenerateResource.cache
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Debug\TonguestenMusicPlayer.csproj.CoreCompileInputs.cache
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Debug\TonguestenMusicPlayer.exe
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Debug\TonguestenMusicPlayer.pdb
