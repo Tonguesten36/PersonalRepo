@@ -1,0 +1,10 @@
+C:\Users\Personal\source\repos\WindowsFormsApp3\bin\Release\WindowsFormsApp3.exe.config
+C:\Users\Personal\source\repos\WindowsFormsApp3\bin\Release\WindowsFormsApp3.exe
+C:\Users\Personal\source\repos\WindowsFormsApp3\bin\Release\WindowsFormsApp3.pdb
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Release\WindowsFormsApp3.MainForm.resources
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Release\WindowsFormsApp3.exe
+C:\Users\Personal\source\repos\WindowsFormsApp3\obj\Release\WindowsFormsApp3.pdb
