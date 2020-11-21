@@ -1,0 +1,43 @@
+# Project: Project2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = QuizApp.o QuestionSets/QuestionSetCulture.o QuestionSets/QuestionSetFood.o QuestionSets/QuestionSetHistory.o QuestionSets/QuestionSetReligion.o QuestionSets/QuestionSetTransportation.o
+LINKOBJ  = QuizApp.o QuestionSets/QuestionSetCulture.o QuestionSets/QuestionSetFood.o QuestionSets/QuestionSetHistory.o QuestionSets/QuestionSetReligion.o QuestionSets/QuestionSetTransportation.o
+LIBS     = -L"D:/_DevStuffs/Dev-Cpp/MinGW64/lib" -L"D:/_DevStuffs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/_DevStuffs/Dev-Cpp/MinGW64/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/_DevStuffs/Dev-Cpp/MinGW64/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = OneHundredProjects.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+QuizApp.o: QuizApp.cpp
+	$(CPP) -c QuizApp.cpp -o QuizApp.o $(CXXFLAGS)
+
+QuestionSets/QuestionSetCulture.o: QuestionSets/QuestionSetCulture.cpp
+	$(CPP) -c QuestionSets/QuestionSetCulture.cpp -o QuestionSets/QuestionSetCulture.o $(CXXFLAGS)
+
+QuestionSets/QuestionSetFood.o: QuestionSets/QuestionSetFood.cpp
+	$(CPP) -c QuestionSets/QuestionSetFood.cpp -o QuestionSets/QuestionSetFood.o $(CXXFLAGS)
+
+QuestionSets/QuestionSetHistory.o: QuestionSets/QuestionSetHistory.cpp
+	$(CPP) -c QuestionSets/QuestionSetHistory.cpp -o QuestionSets/QuestionSetHistory.o $(CXXFLAGS)
+
+QuestionSets/QuestionSetReligion.o: QuestionSets/QuestionSetReligion.cpp
+	$(CPP) -c QuestionSets/QuestionSetReligion.cpp -o QuestionSets/QuestionSetReligion.o $(CXXFLAGS)
+
+QuestionSets/QuestionSetTransportation.o: QuestionSets/QuestionSetTransportation.cpp
+	$(CPP) -c QuestionSets/QuestionSetTransportation.cpp -o QuestionSets/QuestionSetTransportation.o $(CXXFLAGS)

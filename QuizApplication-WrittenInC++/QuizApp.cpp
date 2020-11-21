@@ -57,6 +57,7 @@ void QuizApp()
 			case 6:
 				cout << "----------| About this software|----------\n";
 				cout << "-----| This software was developed by Nguyen Hoang Tung - Tonguesten |-----\n";
+				cout << "-----| Developed by using Dev-C++ (Version 5.11) |-----\n";
 				cout << "\n"; 
 				break;
 			case 7:
