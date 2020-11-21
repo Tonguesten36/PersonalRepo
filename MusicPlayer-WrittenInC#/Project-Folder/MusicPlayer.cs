@@ -38,7 +38,7 @@ namespace WindowsFormsApp3
 
             openFileDialog.CheckFileExists = true;
 
-            openFileDialog.Filter = "WAV files (*.wav)|*.wav";
+            openFileDialog.Filter = "WAV files (*.wav)|*.wav|MP3 files (*.mp3)|*.mp3";
             openFileDialog.DefaultExt = ".wav";
 
             if(openFileDialog.ShowDialog() == DialogResult.OK)
