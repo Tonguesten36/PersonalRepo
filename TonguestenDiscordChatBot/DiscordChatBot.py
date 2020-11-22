@@ -2,8 +2,6 @@ import os
 import discord
 from dotenv import load_dotenv
 
-load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
 client = discord.Client()
 
 @client.event
@@ -19,4 +17,4 @@ async def on_message(message):
     if message.content.startswith('Hello, Blueblood'):
         await message.channel.send('Hello! My name is BlueBlood!')
 
-client.run(token)
+client.run("Nzc5OTUzNTc1OTI0NTk2NzU2.X7oCXw.lenBIjO5o5vTfaenlFotVtJUf3c")
