@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28357f7a-aae0-4c87-8790-8ae1cd8db6cf" name="Default Changelist" comment="" />
+    <list default="true" id="28357f7a-aae0-4c87-8790-8ae1cd8db6cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/PersonalRepo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PersonalRepo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordGenerator/HowToRunThisFile.md" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPassword/HowToRunThisFile.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordGenerator/PasswordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPassword/PasswordGenerator.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +31,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\PasswordGenerator" />
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\PasswordGenerator\password_generator" />
       <recent name="C:\Users\Personal\Documents\PersonalRepo\PomodoroClock (Still WIP, let me know if there is something missing)" />
       <recent name="C:\Users\Personal\Documents\PersonalRepo" />
     </key>
@@ -42,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DiscordChatBot">
+  <component name="RunManager" selected="Python.PasswordUtility">
     <configuration name="DiscordChatBot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PersonalRepo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,7 +71,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PasswordGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PasswordManager (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalRepo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPassword" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPassword\PasswordUtility.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PersonalRepo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +104,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PasswordGenerator/PasswordGenerator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PasswordGenerator/PasswordManager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordUtility" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalRepo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPassword" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TonguestenPassword/PasswordUtility.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,9 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PasswordUtility" />
+        <item itemvalue="Python.PasswordManager (1)" />
+        <item itemvalue="Python.PasswordManager" />
         <item itemvalue="Python.DiscordChatBot" />
         <item itemvalue="Python.PomodoroClock" />
-        <item itemvalue="Python.PasswordGenerator" />
       </list>
     </recent_temporary>
   </component>
