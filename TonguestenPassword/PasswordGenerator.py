@@ -48,25 +48,31 @@ def main():
                 # generating password
                 print("Password: \b")
                 password_generator(length)
+                print("--------------------------------------------------------------")
 
             # if the user does not return a specific length
             except ValueError:
-                print("We need a specific number")
+                print("Try again...")
+                print("--------------------------------------------------------------")
         else:
             # if the user said No
             if request == "N" or request == "n":
-                print("Going back...")
+                print("Try again...")
                 sleep(3)
+                print("--------------------------------------------------------------")
             else:
-                print("Please return an appropriate command.")
+                print("Try again...")
+                print("--------------------------------------------------------------")
     except ValueError:
         print("An unknown error occur.")
+        print("--------------------------------------------------------------")
 
 
 def about():
     print("################ ABOUT THIS PROGRAM ######################")
     print("----------| Password Generator is a program that generates a randomised password |----------")
     print("----------| Made by Tonguesten |----------")
+    print("--------------------------------------------------------------")
 
 
 def main_program():

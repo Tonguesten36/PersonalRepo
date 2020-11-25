@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28357f7a-aae0-4c87-8790-8ae1cd8db6cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PersonalRepo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PersonalRepo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasswordGenerator/HowToRunThisFile.md" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPassword/HowToRunThisFile.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasswordGenerator/PasswordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPassword/PasswordGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TonguestenPassword/PasswordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPassword/PasswordGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TonguestenPassword/PasswordUtility.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPassword/PasswordUtility.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
