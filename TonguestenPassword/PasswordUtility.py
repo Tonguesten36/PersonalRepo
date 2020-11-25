@@ -16,6 +16,7 @@ if __name__ == '__main__':
             print("---------| This utility was developed by Tonguesten in 2020 |---------")
             print("---------| This utility was written in Python (3.9) |---------")
         elif operation == "4":
+            print("################ EXITING THIS PROGRAM ######################")
             print("Thank you for using Password Utility...")
             sleep(3)
             exit()
