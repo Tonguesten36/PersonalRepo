@@ -23,8 +23,7 @@ def password_generator(length):
 
 
 def main():
-    print("##############################################################")
-    print("\n---------- Password Generator ----------")
+    print("################ GENERATING A PASSWORD ######################")
 
     request = input("------ Do you want to generate a new password? [Y/N] ")
 
@@ -33,7 +32,7 @@ def main():
         str(request)
         # if the user said Yes
         if request == "Y" or request == "y":
-            length = input("How long do you want your password to be? ")
+            length = int(input("How long do you want your password to be? "))
             try:
                 # prompt the user for password's length
                 int(length)
@@ -49,29 +48,37 @@ def main():
                 # generating password
                 print("Password: \b")
                 password_generator(length)
+                print("--------------------------------------------------------------")
+
             # if the user does not return a specific length
             except ValueError:
-                print("We need a specific number")
+                print("Try again...")
+                print("--------------------------------------------------------------")
         else:
             # if the user said No
             if request == "N" or request == "n":
-                print("Going back...")
+                print("Try again...")
                 sleep(3)
+                print("--------------------------------------------------------------")
             else:
-                print("Please return an appropriate command.")
+                print("Try again...")
+                print("--------------------------------------------------------------")
     except ValueError:
         print("An unknown error occur.")
+        print("--------------------------------------------------------------")
 
 
 def about():
-    print("##############################################################")
+    print("################ ABOUT THIS PROGRAM ######################")
     print("----------| Password Generator is a program that generates a randomised password |----------")
     print("----------| Made by Tonguesten |----------")
+    print("--------------------------------------------------------------")
 
 
-if __name__ == '__main__':
-    while True:
-        print("##############################################################")
+def main_program():
+    a = 0
+    while a < 1:
+        print("################ PASSWORD GENERATOR ######################")
         print("------| Select the following operations |------")
         print("1. Password Generator \n2. About this software \n3. Exit the program")
         opt = input("Enter here: ")
@@ -81,8 +88,9 @@ if __name__ == '__main__':
         elif opt == "2":
             about()
         elif opt == "3":
-            print("Thank you for using this program...")
+            print("Thank you for using this Password Generator...")
             sleep(3)
-            exit()
+            a = 2
         else:
             print("No such operation exists")
+

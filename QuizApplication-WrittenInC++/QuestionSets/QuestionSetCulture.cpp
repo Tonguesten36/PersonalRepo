@@ -1,11 +1,10 @@
 #include <iostream>
 #include "QuizApp.h"
 
-using namespace std;
-
 // This is the second questions set in the Quiz App, the topic is culture.
 void QuestionSetCulture()
 {
+	cout << "################ CULTURE #################" << endl;
 	// In this function, I used ternary operator to make the code look less cumbersome. It can be confusing to look at first, but you'll get used to it.
 	
 	// Here is how ternary operator works:
