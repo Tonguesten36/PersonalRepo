@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28357f7a-aae0-4c87-8790-8ae1cd8db6cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordManager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/Makefile.win" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/Makefile.win" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.dev" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.layout" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.layout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetCulture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetCulture.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetCulture.o" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetCulture.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.o" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetHistory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetHistory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetHistory.o" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetHistory.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetReligion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetReligion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetReligion.o" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetReligion.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetTransportation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetTransportation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetTransportation.o" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetTransportation.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuizApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuizApp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuizApp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuizApp.o" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuizApp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TonguestenPassword/HowToRunThisFile.md" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/HowToRunThisFile.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TonguestenPassword/PasswordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TonguestenPassword/PasswordManager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TonguestenPassword/PasswordUtility.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordUtility.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TonguestenPassword/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordUtility.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordUtility.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +30,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager" />
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordGenerator" />
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility" />
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordUtility" />
       <recent name="C:\Users\Personal\Documents\PersonalRepo" />
-      <recent name="C:\Users\Personal\Documents\PersonalRepo\PasswordGenerator" />
-      <recent name="C:\Users\Personal\Documents\PersonalRepo\PasswordGenerator\password_generator" />
-      <recent name="C:\Users\Personal\Documents\PersonalRepo\PomodoroClock (Still WIP, let me know if there is something missing)" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,28 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PasswordManager (3)">
-    <configuration name="PasswordManager (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PersonalRepo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPassword" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPassword\PasswordUtility.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.PasswordUtility (2)">
     <configuration name="PasswordManager (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PersonalRepo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +83,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordManager.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager\PasswordManager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalRepo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordUtility" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager\PasswordManager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\PasswordUtility.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordUtility.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PasswordUtility" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PasswordUtility (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PersonalRepo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPassword" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPasswordUtility" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TonguestenPassword/PasswordUtility.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordUtility.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PasswordUtility (2)" />
+        <item itemvalue="Python.PasswordManager" />
         <item itemvalue="Python.PasswordManager (3)" />
         <item itemvalue="Python.PasswordUtility (1)" />
         <item itemvalue="Python.PasswordManager (2)" />
-        <item itemvalue="Python.PasswordUtility" />
-        <item itemvalue="Python.PasswordManager (1)" />
       </list>
     </recent_temporary>
   </component>

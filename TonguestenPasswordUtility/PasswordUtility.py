@@ -1,7 +1,6 @@
 from time import sleep
-from TonguestenPasswordUtility import PasswordGenerator as PG
-from TonguestenPasswordUtility import PasswordManager as PM
-
+from TonguestenPasswordUtility.PasswordGenerator import PasswordGenerator as PG
+from TonguestenPasswordUtility.PasswordManager import PasswordManager as PM
 
 if __name__ == '__main__':
     while True:
@@ -17,8 +16,8 @@ if __name__ == '__main__':
             print("--------------------------------------------------------------")
         elif operation == "3":
             print("################ ABOUT THIS PROGRAM ######################")
-            print("---------| This utility was developed by Tonguesten in 2020 |---------")
-            print("---------| This utility was written in Python (3.9) |---------")
+            print("This utility was developed by Tonguesten in 2020")
+            print("This utility was written in Python (3.9)")
             print("--------------------------------------------------------------")
         elif operation == "4":
             print("################ EXITING THIS PROGRAM ######################")
