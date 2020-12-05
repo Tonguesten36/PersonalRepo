@@ -1,12 +1,12 @@
 #include <iostream>
 #include "QuizApp.h"
 
-using namespace std;
-
 // This is the fifth questions set in the Quiz App. This one is related to history stuff.
 void QuestionSetHistory()
 {
+	cout << "################ HISTORY #################" << endl;
 	int score = 0;
+	
 	int q1 = QuestionManager(3, "Which empire have *attempted* to invade Vietnam (formally known as Dai Viet) three times, and failed throughout 1258, 1285 and 1287-1288?",
 		"The United States of America",
 		"French Empire",

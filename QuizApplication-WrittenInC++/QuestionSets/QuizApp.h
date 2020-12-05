@@ -11,6 +11,7 @@ void QuestionSetCulture();
 void QuestionSetReligion();
 void QuestionSetTransportation();
 void QuestionSetHistory();
+void QuestionSetTech();
 
 #endif
 

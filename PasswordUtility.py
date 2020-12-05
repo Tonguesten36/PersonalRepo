@@ -1,6 +1,6 @@
 from time import sleep
-from TonguestenPassword import PasswordGenerator as PG
-from TonguestenPassword import PasswordManager as PM
+from TonguestenPasswordUtility import PasswordGenerator as PG
+from TonguestenPasswordUtility import PasswordManager as PM
 
 
 if __name__ == '__main__':
@@ -14,6 +14,7 @@ if __name__ == '__main__':
             print("--------------------------------------------------------------")
         elif operation == "2":
             PM.main_program()
+            print("--------------------------------------------------------------")
         elif operation == "3":
             print("################ ABOUT THIS PROGRAM ######################")
             print("---------| This utility was developed by Tonguesten in 2020 |---------")
@@ -21,8 +22,13 @@ if __name__ == '__main__':
             print("--------------------------------------------------------------")
         elif operation == "4":
             print("################ EXITING THIS PROGRAM ######################")
-            print("Thank you for using Password Utility...")
-            sleep(3)
+            thank_you = "Thank you for using this program"
+            for i in thank_you:
+                print(f"{i}", end="")
+                sleep(0.1)
+            for i in range(0, 3, 1):
+                print(".", end="")
+                sleep(0.5)
             exit()
         elif operation == "n":
             print("bye")

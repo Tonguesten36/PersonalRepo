@@ -1,43 +1,44 @@
 #include <iostream>
-#include "QuizApp.h"
+#include "QuestionSets/QuizApp.h"
 #include "synchapi.h"
 
 using namespace std;
 
+void AboutSoftware();
+
 int main()
 {
 	QuizApp();
-	return 0;	
+	return 0;
 }
 
 void QuizApp()
 {
 	int a = 1;
 	while(a < 2)
-	{		
-		cout << "" << endl;
-		cout << "----------| Quiz App - Made by Tongue |----------" << endl;
+	{
+		cout << "################ QUIZ APP - MADE BY TONGUESTEN #################" << endl;
 		Sleep(100);
 		cout << "-- Welcome to Quiz App, User --" << endl;
 		Sleep(75);
 		cout << "-- Select one command from below --" << endl;
 		Sleep(75);
-		
+
 		cout << "1: Food." << endl;
 		cout << "2: Culture." << endl;
 		cout << "3: Religion." << endl;
 		cout << "4: Transportation." << endl;
 		cout << "5: History." << endl;
-		cout << "6: About this software" << endl;
-		cout << "7: Exit the app" << endl;
-		
-		int chosenCategory;
+		cout << "6: Tech." << endl;
+		cout << "7: About this software" << endl;
+		cout << "8: Exit the app" << endl;
+
+		int category;
 		cout << "Enter here: ";
-		cin >> chosenCategory;
-		
+		cin >> category;
+
 		string txt = "Thank you for using this program...";
-				
-		switch(chosenCategory)
+		switch(category)
 		{
 			case 1:
 				QuestionSetFood();
@@ -55,13 +56,15 @@ void QuizApp()
 				QuestionSetHistory();
 				break;
 			case 6:
-				cout << "----------| About this software|----------\n";
-				cout << "-----| This software was developed by Nguyen Hoang Tung - Tonguesten |-----\n";
-				cout << "-----| Developed by using Dev-C++ (Version 5.11) |-----\n";
-				cout << "\n"; 
+				QuestionSetTech();
 				break;
 			case 7:
-				for(int i = 0; i < txt.size(); i++){
+				AboutSoftware();
+				break;
+			case 8:
+				cout << "########################################################" << endl;
+				for(int i = 0; i < txt.size(); i++)
+				{
 					cout << txt[i];
 					Sleep(100);
 				}
@@ -74,7 +77,7 @@ void QuizApp()
 				a = 6;
 				break;
 			default:
-				cout << "Category index out of bound." << endl;
+				cout << "Try again." << endl;
 				break;
 		}
 	}
@@ -90,14 +93,14 @@ bool QuestionManager(int correctChoice, string question, string firstChoice, str
 	{
 		cout << i + 1 << ". " << choices[i] << endl;
 	}
-	
+
 	int chosenAnswer;
 	cout << "Answer here: ";
-	cin >> chosenAnswer;	
-	
+	cin >> chosenAnswer;
+
 	string correct = "The answer is correct";
 	string incorrect = "The answer is incorrect";
-	
+
 	if(chosenAnswer == correctChoice)
 	{
 		for(int i = 0; i < correct.size(); i++)
@@ -128,5 +131,13 @@ bool QuestionManager(int correctChoice, string question, string firstChoice, str
 		cout << "" << endl;
 		return false;
 	}
+}
+
+void AboutSoftware()
+{
+	cout << "################ ABOUT THIS SOFTWARE ###################\n";
+	cout << "-----| This software was developed by Nguyen Hoang Tung - Tonguesten |-----\n";
+	cout << "-----| Developed by using Dev-C++ (Version 5.11) |-----\n";
+	cout << "\n";
 }
 
