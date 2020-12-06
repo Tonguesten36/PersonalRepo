@@ -88,9 +88,16 @@ def main_program():
         elif opt == "2":
             about()
         elif opt == "3":
-            print("Thank you for using this Password Generator...")
-            sleep(3)
+            thank_you = "Thank you for using Password Generator"
+            for i in thank_you:
+                print(f"{i}", end="")
+                sleep(0.1)
+            for i in range(0, 3, 1):
+                print(".", end="")
+                sleep(0.5)
             a = 2
         else:
             print("No such operation exists")
 
+if __name__ == '__main__':
+    main_program()

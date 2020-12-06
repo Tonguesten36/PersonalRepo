@@ -29,11 +29,11 @@ def list_all_password_available(database):
     connection = sqlite3.connect(database)
     cursor = connection.cursor()
     
-    sql_display_password_all = "SELECT * FROM Password"
-    cursor.execute(sql_display_password_all)
+    display_password_all = "SELECT * FROM Password"
+    cursor.execute(display_password_all)
     ans = cursor.fetchall()
 
-    print("Here are the available passwords: ")
+    print("################## Here are the available passwords: #########################")
     for i in ans:
         print(f"{i}")
     connection.close()
@@ -112,14 +112,14 @@ def delete_password_from_database(database):
     delete_target = raw_input("Enter the account's name that you wish to delete here (case sensitive): ")
 
     try:
-        check_account = "SELECT * FROM Password WHERE accountName = \"{}\";".format(str(delete_target))
+        check_account = "SELECT * FROM Password WHERE accountName = \"?\";", (str(delete_target))
         cursor.execute(check_account)
         account_exists = bool(cursor.fetchall())
 
         # Check if the target website exists
         if account_exists:
             print("Deleting the account {}".format(delete_target))
-            deleting_password = "DELETE FROM Password WHERE accountName = \"{}\";".format(str(delete_target))
+            deleting_password = "DELETE FROM Password WHERE accountName = \"?\";", (str(delete_target))
             cursor.execute(deleting_password)
             connection.commit()
         else:
@@ -130,48 +130,80 @@ def delete_password_from_database(database):
     connection.close()
 
 
-def main_program():
-    print()
-    print("################ PASSWORD MANAGER ######################")
+def edit_password_info(database):
+    connection = sqlite3.connect(database)
+    cursor = connection.cursor()
 
-    print("Welcome to the Password Manager, user. Here is a list of operations you could use in this program:")
-    print("0. Create a new password database (if it's not available already")
-    print("1. List all passwords available")
-    print("2. Find a password with its according website")
-    print("3. Add a new password")
-    print("4. Remove a password")
-    #print("5. Edit a password's info") (coming soon!)
-    #print("6. About this program") (coming soon!)
-    print("7. Exit the program")
-    opt = input("Enter here: ")
+    print("################ EDIT A PASSWORD'S INFO ######################")
 
-    # The database file in the folder
-    database = "PasswordDatabase.db"
+    print("Enter the website's name and the account name to edit a password")
+    website = raw_input("Website: ")
+    account = raw_input("Account: ")
+    new_password = raw_input("Enter your new password here: ")
 
-    if opt == "1":
-        list_all_password_available(database)
-    elif opt == "2":
-        find_password_from_database(database)
-    elif opt == "3":
-        create_new_password(database)
-    elif opt == "4":
-        delete_password_from_database(database)
-    elif opt == "7":
-        thank_you = "Thank you for using this program"
-        for i in thank_you:
-            print(f"{i}", end="")
-            sleep(0.1)
-        for i in range(0, 3, 1):
-            print(".", end="")
-            sleep(0.5)
-        exit()
-    else:
-        if opt == 0:
-            create_new_database()
+    try:
+        cursor.execute("SELECT password FROM Password WHERE accountName = ?, website = ?"), (account, website)
+        web_and_account_exsists = bool(cursor.fetchall())
+
+        if web_and_account_exsists:
+            edit_info = "UPDATE Password SET password = ? WHERE website = ?, accountName = ?"
+            cursor.execute(edit_info, (new_password, website, account))
+            connection.commit()
+            print("Password successfully updated.")
         else:
-            print("Try again.")
+            print("There is not such website and account in the database.")
+
+    except sqlite3.OperationalError:
+        print("Something went wrong, sorry about that.")
+    finally:
+        connection.close()
+
+
+def main_program():
+    a = 0
+    while a < 1:
+        print()
+        print("################ PASSWORD MANAGER ######################")
+
+        print("Welcome to the Password Manager, user. Here is a list of operations you could use in this program:")
+        print("0. Create a new password database (if it's not available already")
+        print("1. List all passwords available")
+        print("2. Find a password with its according website")
+        print("3. Add a new password")
+        print("4. Remove a password")
+        print("5. Edit a password's info")
+        print("6. About this program")
+        print("7. Exit the program")
+        opt = input("Enter here: ")
+
+        # The database file in the folder
+        database = "PasswordDatabase.db"
+
+        if opt == "1":
+            list_all_password_available(database)
+        elif opt == "2":
+            find_password_from_database(database)
+        elif opt == "3":
+            create_new_password(database)
+        elif opt == "4":
+            delete_password_from_database(database)
+        elif opt == "5":
+            edit_password_info(database)
+        elif opt == "7":
+            thank_you = "Thank you for using Password Manager"
+            for i in thank_you:
+                print(f"{i}", end="")
+                sleep(0.1)
+            for i in range(0, 3, 1):
+                print(".", end="")
+                sleep(0.5)
+            a = 1
+        else:
+            if opt == 0:
+                create_new_database()
+            else:
+                print("Try again.")
 
 
 if __name__ == '__main__':
-    while True:
-        main_program()
+    main_program()
