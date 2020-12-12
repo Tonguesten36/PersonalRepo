@@ -5,6 +5,7 @@
 using namespace std;
 
 void AboutSoftware();
+void QuestionSetModule(int categoryIndex);
 
 int main()
 {
@@ -36,7 +37,7 @@ void QuizApp()
 		int category;
 		cout << "Enter here: ";
 		cin >> category;
-
+		
 		string txt = "Thank you for using this program...";
 		switch(category)
 		{
@@ -76,9 +77,9 @@ void QuizApp()
 				cout << "" << endl;
 				a = 6;
 				break;
-			default:
-				cout << "Try again." << endl;
-				break;
+				default:
+					cout << "Try again" << endl;
+					break;
 		}
 	}
 }
@@ -100,7 +101,7 @@ bool QuestionManager(int correctChoice, string question, string firstChoice, str
 
 	string correct = "The answer is correct";
 	string incorrect = "The answer is incorrect";
-
+	
 	if(chosenAnswer == correctChoice)
 	{
 		for(int i = 0; i < correct.size(); i++)

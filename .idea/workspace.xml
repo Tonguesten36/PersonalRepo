@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="28357f7a-aae0-4c87-8790-8ae1cd8db6cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordGenerator/PasswordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordGenerator/PasswordGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordManager/PasswordManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordManager/PasswordManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.layout" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/OneHundredProjects.layout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.o" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuestionSets/QuestionSetFood.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuizApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApplication-WrittenInC++/QuizApp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordGenerator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordManager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordUtility.py" beforeDir="false" afterPath="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordUtility.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager" />
       <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordGenerator" />
       <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility" />
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\RomanToDecimal\DecimalToRomanPackage" />
+      <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager" />
       <recent name="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordUtility" />
-      <recent name="C:\Users\Personal\Documents\PersonalRepo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordManager/PasswordManager.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PasswordManager (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PasswordStrengthChecker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PersonalRepo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,53 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPasswordUtility" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordStrengthChecker" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager\PasswordManager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PasswordManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PersonalRepo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPasswordUtility/PasswordUtility" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordManager\PasswordManager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PasswordUtility (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PersonalRepo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TonguestenPasswordUtility" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordUtility.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Personal\Documents\PersonalRepo\TonguestenPasswordUtility\PasswordStrengthChecker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,13 +120,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RomanNumberConverter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalRepo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RomanToDecimal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RomanToDecimal/RomanNumberConverter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UsernameGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalRepo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RamdonPasswordGenerator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RamdonPasswordGenerator/UsernameGenerator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.PasswordUtility (2)" />
+        <item itemvalue="Python.PasswordStrengthChecker" />
+        <item itemvalue="Python.UsernameGenerator" />
+        <item itemvalue="Python.RomanNumberConverter" />
         <item itemvalue="Python.PasswordManager (1)" />
-        <item itemvalue="Python.PasswordManager" />
-        <item itemvalue="Python.PasswordManager (3)" />
-        <item itemvalue="Python.PasswordUtility (1)" />
       </list>
     </recent_temporary>
   </component>

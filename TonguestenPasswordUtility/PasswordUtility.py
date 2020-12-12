@@ -1,25 +1,35 @@
 from time import sleep
+
 from TonguestenPasswordUtility.PasswordGenerator import PasswordGenerator as PG
 from TonguestenPasswordUtility.PasswordManager import PasswordManager as PM
+from TonguestenPasswordUtility.PasswordStrengthChecker import PasswordStrengthChecker as PSC
+
 
 if __name__ == '__main__':
     while True:
         print("################ PASSWORD UTILITY ######################")
-        print("1. Password Generator\n2. Password Manager\n3. About the Password-Related Utility\n4. Exit the utility")
-        operation = input("Choose an operation (enter an integer): ")
+        print("G. Password Generator\n"
+              "M. Password Manager\n"
+              "S. Password Strength Checker\n"
+              "A. About the Password-Related Utility\n"
+              "E. Exit the utility")
+        operation = input("Choose an operation: ")
 
-        if operation == "1":
+        if operation == "G":
             PG.main_program()
             print("--------------------------------------------------------------")
-        elif operation == "2":
+        elif operation == "M":
             PM.main_program()
             print("--------------------------------------------------------------")
-        elif operation == "3":
+        elif operation == "A":
             print("################ ABOUT THIS PROGRAM ######################")
             print("This utility was developed by Tonguesten in 2020")
             print("This utility was written in Python (3.9)")
             print("--------------------------------------------------------------")
-        elif operation == "4":
+        elif operation == "S":
+            PSC.main_program()
+            print("--------------------------------------------------------------")
+        elif operation == "E":
             print("################ EXITING THIS PROGRAM ######################")
             thank_you = "Thank you for using this program"
             for i in thank_you:
