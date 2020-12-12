@@ -28,34 +28,32 @@ void QuestionSetFood()
 		"Italy", 
 		"Tunisia", 
 		"Portugal", 
-		"Spain") ? 1 : 0;
+		"Spain") ? score++ : 0;
 	
 	int q2 = QuestionManager(1, "What is the national dish of Hungary?", 
 		"Goulash", 
 		"Potato salad", 
 		"Blin", 
-		"Kalashnikov") ? 1 : 0;	
+		"Kalashnikov") ? score++ : 0;	
 	
 	int q3 = QuestionManager(1, "Dolmades is a Greek dish wrapped in what?", 
 		"Vine leaves", 
 		"Grape leaves", 
 		"Bale leaves", 
-		"Banana leaves") ? 1 : 0;
+		"Banana leaves") ? score++ : 0;
 	
 	int q4 = QuestionManager(2, "Which type of nut is used in the production of marzipan?", 
 		"Nut", 
 		"Almond", 
 		"Cashew nut", 
-		"Peanut") ? 1 : 0;
+		"Peanut") ? score++ : 0;
 	
 	int q5 = QuestionManager(1, "Which extra toppings (in addition to cheese and tomato) would you expect to find on a Hawaiian pizza?",
 		"Ham and pineapple", 
 		"Kebab and banana", 
 		"Coconut and... more coconut?", 
-		"Ham and pine apple") ? 1 : 0;
-	
-	score = q1 + q2 + q3 + q4 + q5;
-	
+		"Ham and pine apple") ? score++ : 0;
+		
 	// You display the final score here
 	cout << "###" << endl;
 	cout << "Your final score: " << score << endl;

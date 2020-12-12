@@ -25,33 +25,31 @@ void QuestionSetReligion()
 		"shahada, salat, zakat, sawm, hajj", 
 		"shazat, zalam, sawn, hajid",
 		"qibla, haya, halal, ahalla, imam",
-		"zawarudo, jihad, sura, haram, ijma") ? 1 : 0;
+		"zawarudo, jihad, sura, haram, ijma") ? score++ : 0;
 	
 	int q2 = QuestionManager(2, "Who founded Buddhism?",
 		"Ranjeet Singh",
 		"Siddhartha Gautama",
 		"Dalai Lama",
-		"Me, the creator of this app") ? 1 : 0;
+		"Me, the creator of this app") ? score++ : 0;
 	
 	int q3 = QuestionManager(4, "What time did the first Crusade happened?", 
 		"1009",
 		"1096",
 		"1090",
-		"1095") ? 1 : 0;
+		"1095") ? score++ : 0;
 	
 	int q4 = QuestionManager(4, "Name one of these four religion groups that does not belong to the Chirstianity",
 		"Protestant",
 		"Lutheran", 
 		"Eastern Orthodox",
-		"Hellenism") ? 1 : 0;
+		"Hellenism") ? score++ : 0;
 	
 	int q5 = QuestionManager(1, "What is the most recent and the most revolutionary religion? (Note that these are all religions, regardless of what people think about it)",
 		"Humanism",
 		"Scientology", 
 		"Adonism",
-		"None") ? 1 : 0;
-	
-	score = q1 + q2 + q3 + q4 + q5;
+		"None") ? score++ : 0;
 	
 	cout << "###" << endl;
 	cout << "Your final score: " << score << endl;
