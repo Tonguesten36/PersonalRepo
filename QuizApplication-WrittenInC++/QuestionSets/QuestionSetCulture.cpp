@@ -23,33 +23,61 @@ void QuestionSetCulture()
 		"Burma", 
 		"Republic of Burma", 
 		"Burma Democratic Republic", 
-		"Turkey") ? 1 : 0;
+		"Turkey") ? score++ : 0;
 	
 	int q2 = QuestionManager(2, "Name the smallest Asian country in terms of both population and area?",
 		"Palau",
 		"Maldive", 
 		"Cook Island", 
-		"Timor Leste") ? 1 : 0;
+		"Timor Leste") ? score++ : 0;
 	
 	int q3 = QuestionManager(3, "Fortune cookies were first made in which of the following countries?", 
 		"China",
 		"Japan", 
 		"The United States of America", 
-		"Vietnam") ? 1 : 0;
+		"Vietnam") ? score++ : 0;
 	
 	int q4 = QuestionManager(1, "When playing pato, Argentina's national sport, today's players use a leather ball with several handles. Originally, participants played with what?", 
 		"A live duck in a basket", 
 		"A roll of pampas", 
 		"A rock", 
-		"A coconut") ? 1 : 0; 
+		"A coconut") ? score++ : 0; 
 	
 	int q5 = QuestionManager(1, "Maltese, the language spoken in Malta, a European Union island nation in the Mediterranean Sea, is derived from what language?", 
 		"Arabic", 
 		"Old Norse", 
 		"Russian", 
-		"Turkish") ? 1 : 0;		
+		"Turkish") ? score++ : 0;
+		
+	int q6 = QuestionManager(2, "In the U.S, Canada and most European countries, when are you expected to show up?",
+		"Late", 
+		"On time", 
+		"Earlier than the appointed time", 
+		"Never") ? score++ : 0;	
 	
-	score = q1 + q2 + q3 + q4 + q5;
+	int q7 = QuestionManager(4, "The official language(s) in India?",
+		"English",
+		"Hindi",
+		"Sanskrit",
+		"Both Hindi and English") ? score++ : 0;
+	
+	int q8 = QuestionManager(1, "In which culture would you most typically see “high fives” at the office?",
+		"The United States of America",
+		"The United Kingdom",
+		"Canada",
+		"France") ? score++ : 0;
+	
+	int q9 = QuestionManager(2, "In which culture are you most likely to go out drinking with your boss?",
+		"The United Kingdom",
+		"Japan",
+		"The United States of America",
+		"China") ? score++ : 0;
+	
+	int q10 = QuestionManager(4, "In which culture are people most likely to directly critique a boss’ idea?",
+		"Germany",
+		"The United States of America",
+		"Isreal",
+		"Israel") ? score++ : 0;
 	
 	cout << "###" << endl;
 	cout << "Your final score: " << score << endl;

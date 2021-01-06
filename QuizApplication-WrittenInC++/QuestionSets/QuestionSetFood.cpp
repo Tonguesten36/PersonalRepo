@@ -53,7 +53,37 @@ void QuestionSetFood()
 		"Kebab and banana", 
 		"Coconut and... more coconut?", 
 		"Ham and pine apple") ? score++ : 0;
-		
+	
+	int q6 = QuestionManager(2, "Which type of beans are used to make baked beans?", 
+		"Borlotti Beans", 
+		"Haricot Beans", 
+		"Cannellini Beans", 
+		"BEANZ") ? score++ : 0;
+	
+	int q7 = QuestionManager(2, "What does IPA stands for?", 
+		"Intensely Potent Ale", 
+		"Indian Pale Ale", 
+		"International Phonetic Alphabet", 
+		"Indian Premiun Ale") ? score++ : 0;
+	
+	int q8 = QuestionManager(2, "Which of these chocolate bar brands does not contain nuts in its ingredient list?",
+		"Snickers", 
+		"Double Decker",
+		"NoNutNovember",
+		"Tobblerone") ? score++ : 0;
+	
+	int q9 = QuestionManager(4, "Which of these flowers does the spice saffron come from?",
+		"Poppy",
+		"Orchid",
+		"Saffron",
+		"Crocus") ? score++ : 0;
+	
+	int q10 = QuestionManager(1, "Gruyère is a cheese from which country?",
+		"Switzerland",
+		"France",
+		"Italy",
+		"Austria") ? score++ : 0;
+	
 	// You display the final score here
 	cout << "###" << endl;
 	cout << "Your final score: " << score << endl;

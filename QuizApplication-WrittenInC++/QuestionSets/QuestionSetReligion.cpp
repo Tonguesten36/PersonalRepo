@@ -51,6 +51,36 @@ void QuestionSetReligion()
 		"Adonism",
 		"None") ? score++ : 0;
 	
+	int q6 = QuestionManager(3, "Which country is NOT a majority Christian nation?",
+		"The United States", 
+		"Brazil", 
+		"India", 
+		"The Philipines") ? score++ : 0;
+	
+	int q7 = QuestionManager(4, "Islam has two main branches, Sunni and Shia. But just like nearly every other religion, there are numerous sects. Which of the following does not consider itself Islamic?",
+		"Ahmadiyya",
+		"Alawite",
+		"Ismaili",
+		"Jainism") ? score++ : 0;
+
+	int q8 = QuestionManager(3, "Into which fictional languages has the Bible been translated?",
+		"Quenya",
+		"Klingon",
+		"All of these",
+		"Na\'vi") ? score++ : 0;
+
+	int q9 = QuestionManager(2, "Who is NOT the leader of a religion or religious faction?",
+		"Dalai Lama",
+		"Saudi King Salam",
+		"Pope Francis",
+		"Aga Khan") ? score++ : 0;
+
+	int q10 = QuestionManager(1, "Which U.S. president was a Quaker?",
+		"Richard Nixon", 
+		"Franklin Pierce",
+		"George Washington",
+		"Franklin Roosevelt") ? score++ : 0;
+	
 	cout << "###" << endl;
 	cout << "Your final score: " << score << endl;
 	cout << "###" << endl;

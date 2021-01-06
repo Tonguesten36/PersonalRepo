@@ -24,4 +24,7 @@ string answer4: The fourth choice that the user could pick
 
 ------| HOW IT WORKS? |------
 
-The correctAnswer argument determines which answers is the correct answer, for example, if the value of correctAnswer is 1, then string answer1 is the correct answer, and the same applies to answer2, answer3, and answer4. However, you cannot have it more than 4 or less than 1, or else the program cannot compile.
+The correctAnswer argument determines which answers is the correct answer, 
+for example, if the value of correctAnswer is 1, then string answer1 is the correct answer, 
+and the same applies to answer2, answer3, and answer4. 
+However, you cannot have it more than 4 or less than 1, or else the program cannot compile.
