@@ -4,7 +4,7 @@ ten = "X"
 fifty = "L"
 hundred = "C"
 five_hundred = "D"
-thousand = "M"
+thousand = "_I"
 
 
 # <summary>
@@ -67,9 +67,9 @@ def NineToEighteen(received_int):
 
 
 # <summary>
-# The input value range from 19 (inclusive) to 28 (inclusive)
+# The input value range from 19 (inclusive) to 29 (inclusive)
 # </summary>
-def NineteenToTwentyEight(received_int):
+def NineteenToThirty(received_int):
     if int(received_int) == 19:
         output_string = ten + one + ten
     else:
@@ -77,7 +77,7 @@ def NineteenToTwentyEight(received_int):
         if 24 > int(received_int) >= 20:
             for i in range(0, int(received_int) - 20, 1):
                 output_string = output_string + one
-        elif int(received_int) >= 24:
+        elif 29 > int(received_int) >= 24:
             limit = int(received_int) - 24
 
             if limit == 0:
@@ -88,6 +88,28 @@ def NineteenToTwentyEight(received_int):
                     if limit > 1:
                         for i in range(0, limit - 1, 1):
                             output_string = output_string + one
+        elif int(received_int) == 29:
+            output_string = ten + ten + one + ten
+
+    return output_string
+
+
+def ThirtyToFourty(received_int):
+    output_string = ""
+
+    for i in range(0, 3, 1):
+        output_string = output_string + ten
+    if int(received_int) > 30:
+        limit = int(received_int) - 30
+        for i in range(0, limit, 1):
+            if limit < 5:
+                output_string = output_string + one
+                if limit == 4:
+                    output_string = output_string + five
+                    break
+            elif limit == 5:
+                output_string = output_string + five
+                break
 
     return output_string
 
