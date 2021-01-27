@@ -4,9 +4,6 @@
 
 using namespace std;
 
-void AboutSoftware();
-void QuestionSetModule(int categoryIndex);
-
 int main()
 {
 	QuizApp();
@@ -15,7 +12,7 @@ int main()
 
 void QuizApp()
 {
-	int a = 1;
+	int a = 0;
 	while(a < 2)
 	{
 		cout << "################ QUIZ APP - MADE BY TONGUESTEN #################" << endl;
@@ -31,8 +28,9 @@ void QuizApp()
 		cout << "4: Transportation." << endl;
 		cout << "5: History." << endl;
 		cout << "6: Tech." << endl;
-		cout << "7: About this software" << endl;
-		cout << "8: Exit the app" << endl;
+		cout << "7: Natural science." << endl;
+		cout << "8: About this program" << endl;
+		cout << "9: Exit the app" << endl;
 
 		int category;
 		cout << "Enter here: ";
@@ -60,9 +58,15 @@ void QuizApp()
 				QuestionSetTech();
 				break;
 			case 7:
-				AboutSoftware();
+				QuestionSetNaturalScience();
 				break;
 			case 8:
+				cout << "################ ABOUT THIS SOFTWARE ###################\n";
+				cout << "-----| This software was developed by Nguyen Hoang Tung - Tonguesten |-----\n";
+				cout << "-----| Developed by using Dev-C++ (Version 5.11) |-----\n";
+				cout << "\n";
+				break;
+			case 9:
 				cout << "########################################################" << endl;
 				for(int i = 0; i < txt.size(); i++)
 				{
@@ -75,11 +79,11 @@ void QuizApp()
 					Sleep(500);
 				}
 				cout << "" << endl;
-				a = 6;
+				a = 2;
 				break;
-				default:
-					cout << "Try again" << endl;
-					break;
+			default:
+				cout << "Try again" << endl;
+				break;
 		}
 	}
 }
@@ -102,8 +106,10 @@ bool QuestionManager(int correctChoice, string question, string firstChoice, str
 	string correct = "The answer is correct";
 	string incorrect = "The answer is incorrect";
 	
+	// If the user choose the right answer...
 	if(chosenAnswer == correctChoice)
 	{
+		// Let them know that they chose the correct one.
 		for(int i = 0; i < correct.size(); i++)
 		{
 			cout << correct[i];
@@ -117,8 +123,10 @@ bool QuestionManager(int correctChoice, string question, string firstChoice, str
 		cout << "" << endl;
 		return true;
 	}
+	// And if they don't...
 	else
 	{
+		// Notify them that they answered incorrectly.
 		for(int i = 0; i < incorrect.size(); i++)
 		{
 			cout << incorrect[i];
@@ -132,13 +140,5 @@ bool QuestionManager(int correctChoice, string question, string firstChoice, str
 		cout << "" << endl;
 		return false;
 	}
-}
-
-void AboutSoftware()
-{
-	cout << "################ ABOUT THIS SOFTWARE ###################\n";
-	cout << "-----| This software was developed by Nguyen Hoang Tung - Tonguesten |-----\n";
-	cout << "-----| Developed by using Dev-C++ (Version 5.11) |-----\n";
-	cout << "\n";
 }
 

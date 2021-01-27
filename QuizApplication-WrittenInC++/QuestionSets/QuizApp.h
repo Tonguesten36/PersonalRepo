@@ -12,6 +12,7 @@ void QuestionSetReligion();
 void QuestionSetTransportation();
 void QuestionSetHistory();
 void QuestionSetTech();
+void QuestionSetNaturalScience();
 
 #endif
 

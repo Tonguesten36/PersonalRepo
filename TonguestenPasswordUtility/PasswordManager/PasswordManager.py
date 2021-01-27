@@ -4,9 +4,9 @@ from pip._vendor.distlib.compat import raw_input
 
 
 # For creating a new database
-def create_new_database():
+def create_new_database(database):
     # You can add your own database file if you want, as long as you replace the placeholder file "PasswordDatabase.db"
-    connection = sqlite3.connect("PasswordDatabase.db")
+    connection = sqlite3.connect(database)
     cursor = connection.cursor()
 
     sql_create_table = """CREATE TABLE Password (
@@ -112,22 +112,22 @@ def delete_password_from_database(database):
     delete_target = raw_input("Enter the account's name that you wish to delete here (case sensitive): ")
 
     try:
-        check_account = "SELECT * FROM Password WHERE accountName = \"?\";", (str(delete_target))
+        check_account = "SELECT * FROM Password WHERE accountName = \"?\";" + (str(delete_target))
         cursor.execute(check_account)
         account_exists = bool(cursor.fetchall())
 
         # Check if the target website exists
         if account_exists:
             print("Deleting the account {}".format(delete_target))
-            deleting_password = "DELETE FROM Password WHERE accountName = \"?\";", (str(delete_target))
+            deleting_password = "DELETE FROM Password WHERE accountName = \"?\";" + (str(delete_target))
             cursor.execute(deleting_password)
             connection.commit()
         else:
             print("Cannot found the target account.")
     except ValueError:
         print("Try again.")
-
-    connection.close()
+    finally:
+        connection.close()
 
 
 def edit_password_info(database):
@@ -142,19 +142,19 @@ def edit_password_info(database):
     new_password = raw_input("Enter your new password here: ")
 
     try:
-        cursor.execute("SELECT password FROM Password WHERE accountName = ?, website = ?"), (account, website)
-        web_and_account_exsists = bool(cursor.fetchall())
+        check_account_existence = "SELECT password FROM Password WHERE accountName = ?, website = ?" + account
+        cursor.execute(check_account_existence)
+        web_and_account_exists = bool(cursor.fetchall())
 
-        if web_and_account_exsists:
-            edit_info = "UPDATE Password SET password = ? WHERE website = ?, accountName = ?"
+        if web_and_account_exists:
+            edit_info = "UPDATE Password SET password = ?, accountName = ?"
             cursor.execute(edit_info, (new_password, website, account))
             connection.commit()
             print("Password successfully updated.")
         else:
             print("There is not such website and account in the database.")
-
     except sqlite3.OperationalError:
-        print("Something went wrong, sorry about that.")
+        print("Something went wrong. The account that you're looking for might not be exists")
     finally:
         connection.close()
 
@@ -179,7 +179,9 @@ def main_program():
         # The database file in the folder
         database = "PasswordDatabase.db"
 
-        if opt == "1":
+        if opt == "0":
+            create_new_database(database)
+        elif opt == "1":
             list_all_password_available(database)
         elif opt == "2":
             find_password_from_database(database)
@@ -199,10 +201,7 @@ def main_program():
                 sleep(0.5)
             a = 1
         else:
-            if opt == 0:
-                create_new_database()
-            else:
-                print("Try again.")
+            print("Try again.")
 
 
 if __name__ == '__main__':
