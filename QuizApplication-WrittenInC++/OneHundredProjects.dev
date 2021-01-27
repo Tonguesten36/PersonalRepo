@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=14
+UnitCount=10
 
 [VersionInfo]
 Major=1
@@ -71,16 +71,6 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=QuestionSets\QuestionSetCulture.o
-CompileCpp=1
-Folder=
-Compile=0
-Link=0
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit5]
 FileName=QuestionSets\QuestionSetFood.cpp
 CompileCpp=1
 Folder=
@@ -90,18 +80,28 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit6]
-FileName=QuestionSets\QuestionSetFood.o
+[Unit5]
+FileName=QuestionSets\QuestionSetHistory.cpp
 CompileCpp=1
 Folder=
-Compile=0
-Link=0
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=QuestionSets\QuestionSetReligion.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
 [Unit7]
-FileName=QuestionSets\QuestionSetHistory.cpp
+FileName=QuestionSets\QuestionSetTransportation.cpp
 Folder=
 Compile=1
 Link=1
@@ -111,17 +111,17 @@ BuildCmd=
 CompileCpp=1
 
 [Unit8]
-FileName=QuestionSets\QuestionSetHistory.o
+FileName=QuestionSets\QuestionSetTechnology.cpp
 CompileCpp=1
 Folder=
-Compile=0
-Link=0
+Compile=1
+Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
 [Unit9]
-FileName=QuestionSets\QuestionSetReligion.cpp
+FileName=QuestionSets\QuizApp.h
 Folder=
 Compile=1
 Link=1
@@ -131,24 +131,14 @@ BuildCmd=
 CompileCpp=1
 
 [Unit10]
-FileName=QuestionSets\QuestionSetReligion.o
+FileName=QuestionSets\QuestionSetNaturalScience.cpp
 CompileCpp=1
-Folder=
-Compile=0
-Link=0
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit11]
-FileName=QuestionSets\QuestionSetTransportation.cpp
 Folder=
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
-CompileCpp=1
 
 [Unit12]
 FileName=QuestionSets\QuestionSetTransportation.o

@@ -5,8 +5,8 @@ CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
 RES      = OneHundredProjects_private.res
-OBJ      = QuizApp.o QuestionSets/QuestionSetCulture.o QuestionSets/QuestionSetFood.o QuestionSets/QuestionSetHistory.o QuestionSets/QuestionSetReligion.o QuestionSets/QuestionSetTransportation.o QuestionSets/QuestionSetTechnology.o $(RES)
-LINKOBJ  = QuizApp.o QuestionSets/QuestionSetCulture.o QuestionSets/QuestionSetFood.o QuestionSets/QuestionSetHistory.o QuestionSets/QuestionSetReligion.o QuestionSets/QuestionSetTransportation.o QuestionSets/QuestionSetTechnology.o $(RES)
+OBJ      = QuizApp.o QuestionSets/QuestionSetCulture.o QuestionSets/QuestionSetFood.o QuestionSets/QuestionSetHistory.o QuestionSets/QuestionSetReligion.o QuestionSets/QuestionSetTransportation.o QuestionSets/QuestionSetTechnology.o QuestionSets/QuestionSetNaturalScience.o $(RES)
+LINKOBJ  = QuizApp.o QuestionSets/QuestionSetCulture.o QuestionSets/QuestionSetFood.o QuestionSets/QuestionSetHistory.o QuestionSets/QuestionSetReligion.o QuestionSets/QuestionSetTransportation.o QuestionSets/QuestionSetTechnology.o QuestionSets/QuestionSetNaturalScience.o $(RES)
 LIBS     = -L"D:/_DevStuffs/Dev-Cpp/MinGW64/lib" -L"D:/_DevStuffs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"D:/_DevStuffs/Dev-Cpp/MinGW64/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/_DevStuffs/Dev-Cpp/MinGW64/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/_DevStuffs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -45,6 +45,9 @@ QuestionSets/QuestionSetTransportation.o: QuestionSets/QuestionSetTransportation
 
 QuestionSets/QuestionSetTechnology.o: QuestionSets/QuestionSetTechnology.cpp
 	$(CPP) -c QuestionSets/QuestionSetTechnology.cpp -o QuestionSets/QuestionSetTechnology.o $(CXXFLAGS)
+
+QuestionSets/QuestionSetNaturalScience.o: QuestionSets/QuestionSetNaturalScience.cpp
+	$(CPP) -c QuestionSets/QuestionSetNaturalScience.cpp -o QuestionSets/QuestionSetNaturalScience.o $(CXXFLAGS)
 
 OneHundredProjects_private.res: OneHundredProjects_private.rc 
 	$(WINDRES) -i OneHundredProjects_private.rc --input-format=rc -o OneHundredProjects_private.res -O coff 

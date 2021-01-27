@@ -4,8 +4,6 @@
 
 using namespace std;
 
-void AboutSoftware();
-
 int main()
 {
 	QuizApp();
@@ -30,8 +28,9 @@ void QuizApp()
 		cout << "4: Transportation." << endl;
 		cout << "5: History." << endl;
 		cout << "6: Tech." << endl;
-		cout << "7: About this software" << endl;
-		cout << "8: Exit the app" << endl;
+		cout << "7: Natural science." << endl;
+		cout << "8: About this program" << endl;
+		cout << "9: Exit the app" << endl;
 
 		int category;
 		cout << "Enter here: ";
@@ -59,9 +58,15 @@ void QuizApp()
 				QuestionSetTech();
 				break;
 			case 7:
-				AboutSoftware();
+				QuestionSetNaturalScience();
 				break;
 			case 8:
+				cout << "################ ABOUT THIS SOFTWARE ###################\n";
+				cout << "-----| This software was developed by Nguyen Hoang Tung - Tonguesten |-----\n";
+				cout << "-----| Developed by using Dev-C++ (Version 5.11) |-----\n";
+				cout << "\n";
+				break;
+			case 9:
 				cout << "########################################################" << endl;
 				for(int i = 0; i < txt.size(); i++)
 				{
@@ -76,9 +81,9 @@ void QuizApp()
 				cout << "" << endl;
 				a = 2;
 				break;
-				default:
-					cout << "Try again" << endl;
-					break;
+			default:
+				cout << "Try again" << endl;
+				break;
 		}
 	}
 }
@@ -135,13 +140,5 @@ bool QuestionManager(int correctChoice, string question, string firstChoice, str
 		cout << "" << endl;
 		return false;
 	}
-}
-
-void AboutSoftware()
-{
-	cout << "################ ABOUT THIS SOFTWARE ###################\n";
-	cout << "-----| This software was developed by Nguyen Hoang Tung - Tonguesten |-----\n";
-	cout << "-----| Developed by using Dev-C++ (Version 5.11) |-----\n";
-	cout << "\n";
 }
 

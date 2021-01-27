@@ -29,13 +29,43 @@ void QuestionSetHistory()
 		"Vladimir Lenin",
 		"Alexei Rykov",
 		"Georgy Malenkov",
-		"Vladimia Lenin") ? score++ : 0;
+		"Leon Trotsky") ? score++ : 0;
 	
 	int q5 = QuestionManager(2, "Thomas Sankara is the leader of what country?",
 		"Ghana",
 		"Burkina Faso",
 		"Upper Volta",
 		"Ethiopia") ? score++ : 0;
+
+	int q6 = QuestionManager(3, "How many SUCCESSFUL, CONFIRMED coup d'etat the U.S had sponsored in the Latin America region throughout the Cold War period?",
+		"9",
+		"12",
+		"10",
+		"13");
+	
+	int q7 = QuestionManager(2, "When did Japan surrendered in WWII?", 
+		"20-August-1945", 
+		"15-August-1945", 
+		"4-July-1945", 
+		"17-July-1945") ? score++ : 0;
+	
+	int q8 = QuestionManager(1, "What year did the Communist Party of Vietnam officially founded?", 
+		"1930", 
+		"1929", 
+		"1931", 
+		"1945") ? score++ : 0;
+	
+	int q9 = QuestionManager(3, "The Renaissance began in which country?", 
+		"England", 
+		"SOVIET UNION", 
+		"Italy", 
+		"Germany") ? score++ : 0;
+	
+	int q10 = QuestionManager(4, "Who wrote \"Wealth of Nation\"?", 
+		"John Locke", 
+		"Karl Marx", 
+		"Vladimir Lenin", 
+		"Adam Smith") ? score++ : 0;
 	
 	cout << "###" << endl;
 	cout << "You final score: " << score << endl;
